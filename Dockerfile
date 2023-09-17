@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/Rehann2/Streamlit-App-for-CSI.git .
+COPY . .
 
 RUN pip3 install -r requirements.txt
 
