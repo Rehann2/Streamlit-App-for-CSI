@@ -32,14 +32,14 @@ pip install -r requirements.txt
 ```
 
 ## Build the Docker Image
-# Build the Docker image with a name of your choice (e.g., "my-streamlit-app") using the provided Dockerfile:
+Build the Docker image with a name of your choice (e.g., "my-streamlit-app") using the provided Dockerfile:
 ```bash
 Copy code
 docker build -t my-streamlit-app .
 ```
 
 ## Run the Docker Container
-# Run the Docker container, specifying a name (e.g., "my-app-container"), a local port (e.g., 8501) to map to the container's port, and the container's port (typically 8501 for Streamlit):
+Run the Docker container, specifying a name (e.g., "my-app-container"), a local port (e.g., 8501) to map to the container's port, and the container's port (typically 8501 for Streamlit):
 
 ```bash
 Copy code
@@ -48,7 +48,7 @@ You can now access the app in your web browser at http://localhost:8501.
 ```
 
 ## Stopping and Removing the Container
-# When you're done using the app, stop and remove the container:
+When you're done using the app, stop and remove the container:
 
 ```bash
 Copy code
